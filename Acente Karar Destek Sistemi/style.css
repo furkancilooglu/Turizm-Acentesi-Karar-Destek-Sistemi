@@ -1,0 +1,140 @@
+body {
+    background-image: url('arkaplan1.jpg');
+    
+  }
+
+.container{
+    display:flex;
+    }
+.container .girisKutu{
+    width: 300px;
+    height: 400px;
+    background-color:#27a09e5f;
+    margin-left: 950px;
+    margin-top: 75px;
+    border-radius: 50px;
+    
+    
+    
+}
+.container .girisKutu .hosgeldiniz{
+    height: 60px;
+    width: 300px;
+   
+    border-block-end-style:solid;
+    border-color:#c3eafdc6;
+    border-width: 13px;
+    
+    
+    
+    
+    text-align: center;
+    
+}
+.container .girisKutu .hosgeldiniz .hosYazi{
+    border-radius: 50px;
+    font-size: 35px;
+    font-family:Century;
+    font-style:oblique;
+    font-weight: bold;
+    text-align: center;
+    position:relative;
+    margin-top: 25px;
+    margin-left:50px;
+    
+    
+   
+    color:#6d4d6e;
+    width: 200px;
+}
+.container .girisKutu .kAdi{
+    width: 300px;
+    height: 100px;
+    
+    
+    display: grid;
+}
+.container .girisKutu .kAdi .kAdiYazi{
+    font-family:Century;
+    font-style:oblique;
+    font-weight: bold;
+    text-align: center;
+    color: #6d4d6e;
+    margin-top: 15px;
+}
+.container .girisKutu .kAdi .kInput{
+    text-align: center;
+    
+}
+.container .girisKutu .kAdi .kInput .a{
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    padding: 10px 25px;
+}
+.container .girisKutu .sifre .sInput .b{
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    padding: 10px 25px;
+}
+
+.container .girisKutu .sifre{
+    font-family:Century;
+    font-style:oblique;
+    font-weight: bold;
+    text-align: center;
+    color: #6d4d6e;
+    display: grid;
+    width: 300px;
+    height: 90px;
+    border-block-end-style:solid;
+    border-color:#c3eafd95;
+    border-width: 13px;   
+}
+.container .girisKutu .sifre .sInput{
+    margin-bottom: 20px;
+}
+.container .girisKutu .giris{
+    text-align: center;
+}
+.container .girisKutu .giris .button{
+    background-color: #6d4d6e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-top: 20px;
+    transition: all 0.5s;
+    
+}
+.container .girisKutu .giris .button span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.container .girisKutu .giris .button span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.container .girisKutu .giris .button:hover span{
+    padding-right: 25px;
+}
+  
+.container .girisKutu .giris .button:hover span:after{
+    opacity: 1;
+    right: 0;
+}
+
+

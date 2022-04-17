@@ -1,0 +1,81 @@
+.container{
+    display: flex;
+}
+.container .solBar{
+    width: 270px;
+    height: 113vh;
+    background-color: #2767a05f;
+}
+.container .solBar .logo{
+    width: 270px;
+    height: 100px;
+    text-align: center;
+    
+}
+.container .solBar .logo .resim{
+    height:100px;
+    width:180px;
+    
+}
+.container .solBar .menuBar{
+    width: 270px;
+    height: 100vh;
+   
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 270px;
+    height: 100vh;
+    
+    
+}
+  
+li a{
+    display: block;
+    color: #6d4d6e;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family:Century;
+    font-style:oblique;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+  
+li a.active{
+    background-color: #6d4d6e;
+    color: white;
+    font-family:Century;
+    font-style:oblique;
+    font-weight: bold;
+}
+  
+li a:hover:not(.active){
+    background-color: #6d4d6e97;
+    color: white;
+    
+}
+.container .content{
+    width: 100%;
+    height: 113vh;
+    background-color: #eaecee;
+}
+.container .content .ustYazi {
+    height: 30px;
+    border-block-end: #6d4d6e;
+    border-block-end-style:solid;
+    display:flex;
+    
+    
+}
+
+
+.container .content .ustYazi .yazii{
+    font-family:Century;
+    
+    font-weight: bold;
+    font-size: 18px;
+    margin:5px;
+    color: black;
+}
